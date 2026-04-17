@@ -193,6 +193,7 @@
       {
         "component": "select",
         "name": "classes_descriptionRteFontSize",
+        "valueType": "string",
         "label": "Description Font Size",
         "description": "Select the font size for the description",
         "condition": {
