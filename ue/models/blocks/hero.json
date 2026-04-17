@@ -18,7 +18,7 @@
             },
             {
               "name": "text",
-              "selector": "div>div>h1"
+              "selector": "div>div>h2"
             }
           ]
         }
@@ -55,6 +55,11 @@
           "name": "classes_descriptionRteFontSize",
           "label": "Description Font Size",
           "description": "Select the font size for the description",
+          "condition": {
+            "!!": {
+              "var": "text"
+            }
+          },
           "options": [
             {
               "name": "100px",
