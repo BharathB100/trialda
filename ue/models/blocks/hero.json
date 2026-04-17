@@ -6,7 +6,7 @@
       "model": "hero",
       "plugins": {
         "da": {
-          "unsafeHTML": "<div class=\"hero\"><div><div><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/jpeg\" srcset=\"\"><img loading=\"lazy\"></picture><h1></h1></div></div></div>",
+          "unsafeHTML": "<div class=\"hero\"><div><div><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/jpeg\" srcset=\"\"><img loading=\"lazy\"></picture><h2></h2></div></div></div>",
           "fields": [
             {
               "name": "image",
@@ -49,6 +49,54 @@
           "value": "",
           "label": "Text",
           "valueType": "string"
+        },
+        {
+          "component": "select",
+          "name": "classes_descriptionRteFontSize",
+          "label": "Description Font Size",
+          "description": "Select the font size for the description",
+          "options": [
+            {
+              "name": "100px",
+              "value": "description-fs-100px"
+            },
+            {
+              "name": "60px",
+              "value": "description-fs-60px"
+            },
+            {
+              "name": "48px",
+              "value": "description-fs-48px"
+            },
+            {
+              "name": "36px",
+              "value": "description-fs-36px"
+            },
+            {
+              "name": "32px",
+              "value": "description-fs-32px"
+            },
+            {
+              "name": "28px",
+              "value": "description-fs-28px"
+            },
+            {
+              "name": "24px",
+              "value": "description-fs-24px"
+            },
+            {
+              "name": "20px",
+              "value": "description-fs-20px"
+            },
+            {
+              "name": "16px",
+              "value": "description-fs-16px"
+            },
+            {
+              "name": "14px",
+              "value": "description-fs-14px"
+            }
+          ]
         }
       ]
     }
