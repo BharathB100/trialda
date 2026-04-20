@@ -1,0 +1,62 @@
+{
+  "definitions": [
+    {
+      "title": "Row",
+      "id": "table-version-two-row",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block/item",
+            "template": {
+              "name": "Row",
+              "model": "table-version-two-row"
+            }
+          }
+        },
+        "da": {
+          "name": "table-version-two-row",
+          "rows": 1,
+          "columns": 1,
+          "fields": [
+            {
+              "name": "column1text",
+              "selector": "div>div"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "filters": [],
+  "models": [
+    {
+      "id": "table-version-two-row",
+      "fields": [
+        {
+          "component": "richtext",
+          "valueType": "string",
+          "name": "column1text",
+          "label": "Column1"
+        },
+        {
+          "component": "select",
+          "name": "classes_column11textRteFontSize",
+          "label": "Column1 Description Font Size",
+          "description": "Select the font size for the column1text description",
+          "options": [
+            { "name": "100px", "value": "column1text-fs-100px" },
+            { "name": "60px", "value": "column1text-fs-60px" },
+            { "name": "48px", "value": "column1text-fs-48px" },
+            { "name": "36px", "value": "column1text-fs-36px" },
+            { "name": "32px", "value": "column1text-fs-32px" },
+            { "name": "28px", "value": "column1text-fs-28px" },
+            { "name": "24px", "value": "column1text-fs-24px" },
+            { "name": "20px", "value": "column1text-fs-20px" },
+            { "name": "16px", "value": "column1text-fs-16px" },
+            { "name": "14px", "value": "column1text-fs-14px" }
+          ]
+        }
+      ]
+    }
+  ]
+}

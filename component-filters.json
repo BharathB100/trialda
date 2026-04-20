@@ -23,7 +23,44 @@
       "table",
       "text",
       "video",
-      "product-recommendations"
+      "product-recommendations",
+      "table-version-two"
+    ]
+  },
+  {
+    "id": "table-version-two-2-columns",
+    "components": [
+      "table-version-two-col-2"
+    ]
+  },
+  {
+    "id": "table-version-two-3-columns",
+    "components": [
+      "table-version-two-col-3"
+    ]
+  },
+  {
+    "id": "table-version-two-4-columns",
+    "components": [
+      "table-version-two-col-4"
+    ]
+  },
+  {
+    "id": "table-version-two-5-columns",
+    "components": [
+      "table-version-two-col-5"
+    ]
+  },
+  {
+    "id": "table-version-two-6-columns",
+    "components": [
+      "table-version-two-col-6"
+    ]
+  },
+  {
+    "id": "table-version-two",
+    "components": [
+      "table-version-two-row"
     ]
   },
   {

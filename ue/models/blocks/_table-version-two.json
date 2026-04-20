@@ -1,0 +1,182 @@
+{
+  "definitions": [
+    {
+      "title": "Table Version Two",
+      "id": "table-version-two",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Table Version Two",
+              "model": "table-version-two",
+              "filter": "table-version-two"
+            }
+          }
+        },
+        "da": {
+          "name": "table-version-two",
+          "rows": 1,
+          "columns": 1,
+          "fields": [
+            {
+              "name": "tableHeader",
+              "selector": "div>div"
+            },
+            {
+              "name": "tableDescriptionLabel",
+              "selector": "div>div:nth-child(2)"
+            },
+            {
+              "name": "tableDescription",
+              "selector": "div>div:nth-child(3)"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "filters": [
+    {
+      "id": "table-version-two",
+      "components": ["table-version-two-row"]
+    }
+  ],
+  "models": [
+    {
+      "id": "table-version-two",
+      "fields": [
+        {
+          "component": "select",
+          "name": "filter",
+          "label": "Columns",
+          "description": "Enter the number of columns",
+          "valueType": "string",
+          "value": "table",
+          "required": true,
+          "options": [
+            {
+              "name": "2 Columns",
+              "value": "table-version-two-2-columns"
+            },
+            {
+              "name": "3 Columns",
+              "value": "table-version-two-3-columns"
+            },
+            {
+              "name": "4 Columns",
+              "value": "table-version-two-4-columns"
+            },
+            {
+              "name": "5 Columns",
+              "value": "table-version-two-5-columns"
+            },
+            {
+              "name": "6 Columns",
+              "value": "table-version-two-6-columns"
+            }
+          ]
+        },
+        {
+          "component": "checkbox-group",
+          "name": "sticky",
+          "label": "Sticky First Column",
+          "valueType": "string",
+          "description": "Select checkbox if left item should be sticky (On/Off)",
+          "options": [
+            {
+              "name": "Enable Sticky",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "component": "richtext",
+          "name": "tableHeader",
+          "label": "Table Header",
+          "description": "Enter the Table Header",
+          "valueType": "string"
+        },
+        {
+          "component": "select",
+          "name": "classes_tableheaderRteFontSize",
+          "label": "Table Header Font Size",
+          "description": "Select the font size for the table header",
+          "options": [
+            { "name": "100px", "value": "tableheader-fs-100px" },
+            { "name": "60px", "value": "tableheader-fs-60px" },
+            { "name": "48px", "value": "tableheader-fs-48px" },
+            { "name": "36px", "value": "tableheader-fs-36px" },
+            { "name": "32px", "value": "tableheader-fs-32px" },
+            { "name": "28px", "value": "tableheader-fs-28px" },
+            { "name": "24px", "value": "tableheader-fs-24px" },
+            { "name": "20px", "value": "tableheader-fs-20px" },
+            { "name": "16px", "value": "tableheader-fs-16px" },
+            { "name": "14px", "value": "tableheader-fs-14px" }
+          ]
+        },
+        {
+          "component": "multiselect",
+          "name": "classes",
+          "label": "Columns to be highlighted",
+          "description": "Select the columns that need to be highlighted in green",
+          "valueType": "string",
+          "options": [
+            {
+              "name": "Column 2",
+              "value": "column2"
+            },
+            {
+              "name": "Column 3",
+              "value": "column3"
+            },
+            {
+              "name": "Column 4",
+              "value": "column4"
+            },
+            {
+              "name": "Column 5",
+              "value": "column5"
+            },
+            {
+              "name": "Column 6",
+              "value": "column6"
+            }
+          ]
+        },
+        {
+          "component": "text",
+          "name": "tableDescriptionLabel",
+          "label": "Table Description Label",
+          "description": "Enter the Table Description Label",
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "name": "tableDescription",
+          "label": "Table Description",
+          "description": "Enter the Table Description",
+          "valueType": "string"
+        },
+        {
+          "component": "select",
+          "name": "classes_tabledescriptiontextRteFontSize",
+          "label": "Table Description Font Size",
+          "description": "Select the font size for the table description",
+          "options": [
+            { "name": "100px", "value": "tabledescription-fs-100px" },
+            { "name": "60px", "value": "tabledescription-fs-60px" },
+            { "name": "48px", "value": "tabledescription-fs-48px" },
+            { "name": "36px", "value": "tabledescription-fs-36px" },
+            { "name": "32px", "value": "tabledescription-fs-32px" },
+            { "name": "28px", "value": "tabledescription-fs-28px" },
+            { "name": "24px", "value": "tabledescription-fs-24px" },
+            { "name": "20px", "value": "tabledescription-fs-20px" },
+            { "name": "16px", "value": "tabledescription-fs-16px" },
+            { "name": "14px", "value": "tabledescription-fs-14px" }
+          ]
+        }
+      ]
+    }
+  ]
+}

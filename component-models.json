@@ -64,6 +64,1425 @@
     ]
   },
   {
+    "id": "table-version-two-col-2",
+    "fields": [
+      {
+        "component": "checkbox-group",
+        "name": "mergecells",
+        "valueType": "string",
+        "description": "Enable this checkbox to merge cells within this row. ⓘ Note: Content in adjacent cells should be exactly same in order to merge those cells. For e.g. If column 2 and column 3 need to be merged, then the content in these cells should match.",
+        "options": [
+          {
+            "name": "Merge Cells",
+            "value": "true"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column1text",
+        "label": "Column1 Description"
+      },
+      {
+        "component": "select",
+        "name": "classes_column21RteFontSize",
+        "label": "column1text Description Font Size",
+        "description": "Select the font size for the column1text description",
+        "options": [
+          {
+            "name": "100px",
+            "value": "column1text-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "column1text-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "column1text-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "column1text-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "column1text-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "column1text-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "column1text-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "column1text-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "column1text-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "column1text-fs-14px"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column2text",
+        "label": "Column2 Description"
+      },
+      {
+        "component": "select",
+        "name": "classes_column22textRteFontSize",
+        "label": "Column2 Description Font Size",
+        "description": "Select the font size for the column2text description",
+        "options": [
+          {
+            "name": "100px",
+            "value": "column2text-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "column2text-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "column2text-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "column2text-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "column2text-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "column2text-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "column2text-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "column2text-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "column2text-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "column2text-fs-14px"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "table-version-two-col-3",
+    "fields": [
+      {
+        "component": "checkbox-group",
+        "name": "mergecells",
+        "valueType": "string",
+        "description": "Enable this checkbox to merge cells within this row. ⓘ Note: Content in adjacent cells should be exactly same in order to merge those cells. For e.g. If column 2 and column 3 need to be merged, then the content in these cells should match.",
+        "options": [
+          {
+            "name": "Merge Cells",
+            "value": "true"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column1text",
+        "label": "Column1 Description"
+      },
+      {
+        "component": "select",
+        "name": "classes_column31textRteFontSize",
+        "label": "Column1 Description Font Size",
+        "description": "Select the font size for the column1text description",
+        "options": [
+          {
+            "name": "100px",
+            "value": "column1text-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "column1text-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "column1text-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "column1text-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "column1text-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "column1text-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "column1text-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "column1text-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "column1text-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "column1text-fs-14px"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column2text",
+        "label": "Column2 Description"
+      },
+      {
+        "component": "select",
+        "name": "classes_column32textRteFontSize",
+        "label": "Column2 Description Font Size",
+        "description": "Select the font size for the column2text description",
+        "options": [
+          {
+            "name": "100px",
+            "value": "column2text-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "column2text-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "column2text-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "column2text-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "column2text-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "column2text-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "column2text-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "column2text-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "column2text-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "column2text-fs-14px"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column3text",
+        "label": "Column3 Description"
+      },
+      {
+        "component": "select",
+        "name": "classes_column33textRteFontSize",
+        "label": "Column3 Description Font Size",
+        "description": "Select the font size for the column3text description",
+        "options": [
+          {
+            "name": "100px",
+            "value": "column3text-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "column3text-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "column3text-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "column3text-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "column3text-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "column3text-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "column3text-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "column3text-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "column3text-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "column3text-fs-14px"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "table-version-two-col-4",
+    "fields": [
+      {
+        "component": "checkbox-group",
+        "name": "mergecells",
+        "valueType": "string",
+        "description": "Enable this checkbox to merge cells within this row. ⓘ Note: Content in adjacent cells should be exactly same in order to merge those cells. For e.g. If column 2 and column 3 need to be merged, then the content in these cells should match.",
+        "options": [
+          {
+            "name": "Merge Cells",
+            "value": "true"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column1text",
+        "label": "Column1 Description"
+      },
+      {
+        "component": "select",
+        "name": "classes_column41textRteFontSize",
+        "label": "Column1 Description Font Size",
+        "description": "Select the font size for the column1text description",
+        "options": [
+          {
+            "name": "100px",
+            "value": "column1text-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "column1text-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "column1text-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "column1text-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "column1text-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "column1text-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "column1text-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "column1text-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "column1text-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "column1text-fs-14px"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column2text",
+        "label": "Column2 Description"
+      },
+      {
+        "component": "select",
+        "name": "classes_column42textRteFontSize",
+        "label": "Column2 Description Font Size",
+        "description": "Select the font size for the column2text description",
+        "options": [
+          {
+            "name": "100px",
+            "value": "column2text-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "column2text-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "column2text-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "column2text-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "column2text-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "column2text-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "column2text-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "column2text-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "column2text-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "column2text-fs-14px"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column3text",
+        "label": "Column3 Description"
+      },
+      {
+        "component": "select",
+        "name": "classes_column43textRteFontSize",
+        "label": "Column3 Description Font Size",
+        "description": "Select the font size for the column3text description",
+        "options": [
+          {
+            "name": "100px",
+            "value": "column3text-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "column3text-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "column3text-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "column3text-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "column3text-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "column3text-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "column3text-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "column3text-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "column3text-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "column3text-fs-14px"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column4text",
+        "label": "Column4 Description"
+      },
+      {
+        "component": "select",
+        "name": "classes_column44textRteFontSize",
+        "label": "Column4 Description Font Size",
+        "description": "Select the font size for the column4text description",
+        "options": [
+          {
+            "name": "100px",
+            "value": "column4text-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "column4text-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "column4text-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "column4text-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "column4text-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "column4text-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "column4text-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "column4text-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "column4text-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "column4text-fs-14px"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "table-version-two-col-5",
+    "fields": [
+      {
+        "component": "checkbox-group",
+        "name": "mergecells",
+        "valueType": "string",
+        "description": "Enable this checkbox to merge cells within this row. ⓘ Note: Content in adjacent cells should be exactly same in order to merge those cells. For e.g. If column 2 and column 3 need to be merged, then the content in these cells should match.",
+        "options": [
+          {
+            "name": "Merge Cells",
+            "value": "true"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column1text",
+        "label": "Column1 Description"
+      },
+      {
+        "component": "select",
+        "name": "classes_column51textRteFontSize",
+        "label": "Column1 Description Font Size",
+        "description": "Select the font size for the column1text description",
+        "options": [
+          {
+            "name": "100px",
+            "value": "column1text-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "column1text-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "column1text-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "column1text-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "column1text-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "column1text-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "column1text-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "column1text-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "column1text-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "column1text-fs-14px"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column2text",
+        "label": "Column2 Description"
+      },
+      {
+        "component": "select",
+        "name": "classes_column52textRteFontSize",
+        "label": "Column2 Description Font Size",
+        "description": "Select the font size for the column2text description",
+        "options": [
+          {
+            "name": "100px",
+            "value": "column2text-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "column2text-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "column2text-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "column2text-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "column2text-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "column2text-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "column2text-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "column2text-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "column2text-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "column2text-fs-14px"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column3text",
+        "label": "Column3 Description"
+      },
+      {
+        "component": "select",
+        "name": "classes_column53textRteFontSize",
+        "label": "Column3 Description Font Size",
+        "description": "Select the font size for the column3text description",
+        "options": [
+          {
+            "name": "100px",
+            "value": "column3text-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "column3text-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "column3text-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "column3text-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "column3text-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "column3text-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "column3text-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "column3text-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "column3text-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "column3text-fs-14px"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column4text",
+        "label": "Column4 Description"
+      },
+      {
+        "component": "select",
+        "name": "classes_column54textRteFontSize",
+        "label": "Column4 Description Font Size",
+        "description": "Select the font size for the column4text description",
+        "options": [
+          {
+            "name": "100px",
+            "value": "column4text-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "column4text-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "column4text-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "column4text-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "column4text-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "column4text-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "column4text-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "column4text-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "column4text-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "column4text-fs-14px"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column5text",
+        "label": "Column5 Description"
+      },
+      {
+        "component": "select",
+        "name": "classes_column55textRteFontSize",
+        "label": "Column5 Description Font Size",
+        "description": "Select the font size for the column5text description",
+        "options": [
+          {
+            "name": "100px",
+            "value": "column5text-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "column5text-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "column5text-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "column5text-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "column5text-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "column5text-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "column5text-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "column5text-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "column5text-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "column5text-fs-14px"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "table-version-two-col-6",
+    "fields": [
+      {
+        "component": "checkbox-group",
+        "name": "mergecells",
+        "valueType": "string",
+        "description": "Enable this checkbox to merge cells within this row. ⓘ Note: Content in adjacent cells should be exactly same in order to merge those cells. For e.g. If column 2 and column 3 need to be merged, then the content in these cells should match.",
+        "options": [
+          {
+            "name": "Merge Cells",
+            "value": "true"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column1text",
+        "label": "Column1 Description"
+      },
+      {
+        "component": "select",
+        "name": "classes_column51textRteFontSize",
+        "label": "Column1 Description Font Size",
+        "description": "Select the font size for the column1text description",
+        "options": [
+          {
+            "name": "100px",
+            "value": "column1text-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "column1text-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "column1text-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "column1text-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "column1text-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "column1text-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "column1text-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "column1text-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "column1text-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "column1text-fs-14px"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column2text",
+        "label": "Column2 Description"
+      },
+      {
+        "component": "select",
+        "name": "classes_column52textRteFontSize",
+        "label": "Column2 Description Font Size",
+        "description": "Select the font size for the column2text description",
+        "options": [
+          {
+            "name": "100px",
+            "value": "column2text-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "column2text-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "column2text-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "column2text-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "column2text-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "column2text-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "column2text-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "column2text-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "column2text-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "column2text-fs-14px"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column3text",
+        "label": "Column3 Description"
+      },
+      {
+        "component": "select",
+        "name": "classes_column53textRteFontSize",
+        "label": "Column3 Description Font Size",
+        "description": "Select the font size for the column3text description",
+        "options": [
+          {
+            "name": "100px",
+            "value": "column3text-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "column3text-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "column3text-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "column3text-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "column3text-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "column3text-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "column3text-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "column3text-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "column3text-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "column3text-fs-14px"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column4text",
+        "label": "Column4 Description"
+      },
+      {
+        "component": "select",
+        "name": "classes_column54textRteFontSize",
+        "label": "Column4 Description Font Size",
+        "description": "Select the font size for the column4text description",
+        "options": [
+          {
+            "name": "100px",
+            "value": "column4text-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "column4text-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "column4text-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "column4text-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "column4text-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "column4text-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "column4text-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "column4text-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "column4text-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "column4text-fs-14px"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column5text",
+        "label": "Column5 Description"
+      },
+      {
+        "component": "select",
+        "name": "classes_column55textRteFontSize",
+        "label": "Column5 Description Font Size",
+        "description": "Select the font size for the column5text description",
+        "options": [
+          {
+            "name": "100px",
+            "value": "column5text-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "column5text-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "column5text-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "column5text-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "column5text-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "column5text-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "column5text-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "column5text-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "column5text-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "column5text-fs-14px"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column6text",
+        "label": "Column6 Description"
+      },
+      {
+        "component": "select",
+        "name": "classes_column56textRteFontSize",
+        "label": "Column6 Description Font Size",
+        "description": "Select the font size for the column6text description",
+        "options": [
+          {
+            "name": "100px",
+            "value": "column6text-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "column6text-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "column6text-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "column6text-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "column6text-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "column6text-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "column6text-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "column6text-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "column6text-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "column6text-fs-14px"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "table-version-two-row",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column1text",
+        "label": "Column1"
+      },
+      {
+        "component": "select",
+        "name": "classes_column11textRteFontSize",
+        "label": "Column1 Description Font Size",
+        "description": "Select the font size for the column1text description",
+        "options": [
+          {
+            "name": "100px",
+            "value": "column1text-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "column1text-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "column1text-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "column1text-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "column1text-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "column1text-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "column1text-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "column1text-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "column1text-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "column1text-fs-14px"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "table-version-two",
+    "fields": [
+      {
+        "component": "select",
+        "name": "filter",
+        "label": "Columns",
+        "description": "Enter the number of columns",
+        "valueType": "string",
+        "value": "table",
+        "required": true,
+        "options": [
+          {
+            "name": "2 Columns",
+            "value": "table-version-two-2-columns"
+          },
+          {
+            "name": "3 Columns",
+            "value": "table-version-two-3-columns"
+          },
+          {
+            "name": "4 Columns",
+            "value": "table-version-two-4-columns"
+          },
+          {
+            "name": "5 Columns",
+            "value": "table-version-two-5-columns"
+          },
+          {
+            "name": "6 Columns",
+            "value": "table-version-two-6-columns"
+          }
+        ]
+      },
+      {
+        "component": "checkbox-group",
+        "name": "sticky",
+        "label": "Sticky First Column",
+        "valueType": "string",
+        "description": "Select checkbox if left item should be sticky (On/Off)",
+        "options": [
+          {
+            "name": "Enable Sticky",
+            "value": "true"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "name": "tableHeader",
+        "label": "Table Header",
+        "description": "Enter the Table Header",
+        "valueType": "string"
+      },
+      {
+        "component": "select",
+        "name": "classes_tableheaderRteFontSize",
+        "label": "Table Header Font Size",
+        "description": "Select the font size for the table header",
+        "options": [
+          {
+            "name": "100px",
+            "value": "tableheader-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "tableheader-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "tableheader-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "tableheader-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "tableheader-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "tableheader-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "tableheader-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "tableheader-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "tableheader-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "tableheader-fs-14px"
+          }
+        ]
+      },
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Columns to be highlighted",
+        "description": "Select the columns that need to be highlighted in green",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Column 2",
+            "value": "column2"
+          },
+          {
+            "name": "Column 3",
+            "value": "column3"
+          },
+          {
+            "name": "Column 4",
+            "value": "column4"
+          },
+          {
+            "name": "Column 5",
+            "value": "column5"
+          },
+          {
+            "name": "Column 6",
+            "value": "column6"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "name": "tableDescriptionLabel",
+        "label": "Table Description Label",
+        "description": "Enter the Table Description Label",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "tableDescription",
+        "label": "Table Description",
+        "description": "Enter the Table Description",
+        "valueType": "string"
+      },
+      {
+        "component": "select",
+        "name": "classes_tabledescriptiontextRteFontSize",
+        "label": "Table Description Font Size",
+        "description": "Select the font size for the table description",
+        "options": [
+          {
+            "name": "100px",
+            "value": "tabledescription-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "tabledescription-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "tabledescription-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "tabledescription-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "tabledescription-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "tabledescription-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "tabledescription-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "tabledescription-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "tabledescription-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "tabledescription-fs-14px"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "accordion-item",
     "fields": [
       {
