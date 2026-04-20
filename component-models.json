@@ -80,7 +80,7 @@
       },
       {
         "component": "select",
-        "name": "style",
+        "name": "style_backgroundColor",
         "valueType": "string",
         "label": "dropdown 2",
         "description": "",
