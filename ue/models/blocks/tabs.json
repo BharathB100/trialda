@@ -19,7 +19,7 @@
       "plugins": {
         "da": {
           "columns": 0,
-          "rows": 2,
+          "rows": 5,
           "fields": [
             { "name": "name", "selector": "div:nth-child(1)"},
             { "name": "content", "selector": "div:nth-child(2)"}

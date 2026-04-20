@@ -602,7 +602,7 @@
           "plugins": {
             "da": {
               "columns": 0,
-              "rows": 2,
+              "rows": 5,
               "fields": [
                 {
                   "name": "name",
