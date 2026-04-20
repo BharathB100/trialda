@@ -1702,6 +1702,17 @@
     ]
   },
   {
+    "id": "table-row1",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column1text",
+        "label": "Column1"
+      }
+    ]
+  },
+  {
     "id": "table",
     "fields": [
       {
@@ -1709,6 +1720,21 @@
         "name": "table",
         "value": "",
         "label": "Table Content"
+      },
+      {
+        "component": "select",
+        "name": "filter",
+        "label": "Columns",
+        "description": "Enter the number of columns",
+        "valueType": "string",
+        "value": "table",
+        "required": true,
+        "options": [
+          {
+            "name": "2 Columns",
+            "value": "table-row1"
+          }
+        ]
       }
     ]
   },

@@ -29,6 +29,21 @@
           "name": "table",
           "value": "",
           "label": "Table Content"
+        },
+        {
+          "component": "select",
+          "name": "filter",
+          "label": "Columns",
+          "description": "Enter the number of columns",
+          "valueType": "string",
+          "value": "table",
+          "required": true,
+          "options": [
+            {
+              "name": "2 Columns",
+              "value": "table-row1"
+            }
+          ]
         }
       ]
     }
@@ -38,12 +53,8 @@
       "id": "table",
       "rte": {
         "toolbar": {
-          "insert": [
-            "table"
-          ],
-          "sections": [
-            "insert"
-          ]
+          "insert": ["table"],
+          "sections": ["insert"]
         }
       }
     }

@@ -546,6 +546,25 @@
           }
         },
         {
+          "title": "Table Row1",
+          "id": "table-row1",
+          "model": "table-row1",
+          "filter": "table-row1",
+          "plugins": {
+            "da": {
+              "name": "table-row1",
+              "rows": 1,
+              "columns": 1,
+              "fields": [
+                {
+                  "name": "tablerow1",
+                  "selector": "div>div"
+                }
+              ]
+            }
+          }
+        },
+        {
           "title": "Table",
           "id": "table",
           "model": "table",
