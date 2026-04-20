@@ -513,7 +513,7 @@
               "fields": [
                 {
                   "name": "quote",
-                  "selector": "div:nth-child(1)>div"
+                  "selector": "div>div p"
                 },
                 {
                   "name": "author",
