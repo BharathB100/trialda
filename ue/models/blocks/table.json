@@ -51,6 +51,7 @@
   "filters": [
     {
       "id": "table",
+      "components": ["table-row1"],
       "rte": {
         "toolbar": {
           "insert": ["table"],
