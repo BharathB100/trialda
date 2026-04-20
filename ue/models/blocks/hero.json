@@ -106,7 +106,7 @@
         },
         {
           "component": "select",
-          "name": "oneclasses",
+          "name": "two",
           "valueType": "string",
           "label": "dropdown 1",
           "description": "",
@@ -123,7 +123,7 @@
         },
         {
           "component": "select",
-          "name": "classesone",
+          "name": "one",
           "valueType": "string",
           "label": "dropdown 2",
           "description": "",

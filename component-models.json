@@ -60,6 +60,40 @@
             "value": "highlight"
           }
         ]
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "valueType": "string",
+        "label": "dropdown 1",
+        "description": "",
+        "options": [
+          {
+            "name": "color",
+            "value": "color"
+          },
+          {
+            "name": "none",
+            "value": "none"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "style",
+        "valueType": "string",
+        "label": "dropdown 2",
+        "description": "",
+        "options": [
+          {
+            "name": "color2",
+            "value": "color"
+          },
+          {
+            "name": "none",
+            "value": "none2"
+          }
+        ]
       }
     ]
   },
@@ -1665,7 +1699,7 @@
       },
       {
         "component": "select",
-        "name": "oneclasses",
+        "name": "two",
         "valueType": "string",
         "label": "dropdown 1",
         "description": "",
@@ -1682,7 +1716,7 @@
       },
       {
         "component": "select",
-        "name": "classesone",
+        "name": "one",
         "valueType": "string",
         "label": "dropdown 2",
         "description": "",
