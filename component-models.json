@@ -1638,7 +1638,7 @@
       },
       {
         "component": "text",
-        "name": "text",
+        "name": "text1",
         "value": "",
         "label": "Text",
         "valueType": "string"
