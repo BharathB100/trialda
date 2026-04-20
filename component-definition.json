@@ -495,7 +495,7 @@
                 },
                 {
                   "name": "text",
-                  "selector": "div>div>h2"
+                  "selector": "div>div>h4"
                 }
               ]
             }
