@@ -494,7 +494,7 @@
                   "selector": "div>div>picture>img[alt]"
                 },
                 {
-                  "name": "text",
+                  "name": "text1",
                   "selector": "div>div>h4"
                 }
               ]
