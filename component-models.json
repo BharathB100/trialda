@@ -1725,6 +1725,14 @@
             "value": "none"
           }
         ]
+      },
+      {
+        "component": "aem-tag",
+        "label": "Tag",
+        "name": "storybannercqtags",
+        "valueType": "string",
+        "description": "Select the tags from the dropdown",
+        "rootPath": "/content/cq:tags"
       }
     ]
   },
